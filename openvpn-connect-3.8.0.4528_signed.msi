@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="fa-IR">
+
+
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<title>ورود</title>
+<link rel="stylesheet" id="buttons-rtl-css" href="new-static/buttons-rtl.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="new-static/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="login-rtl-css" href="new-static/login-rtl.min.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="7meSd4ZJvR7KRzmxU_ETkxi9676ks1_p6VdeovyxNMA" />
+<meta name="robots" content="noindex">
+
+</head>
+	<body class="login login-action-login wp-core-ui rtl  locale-fa-ir">
+	<div id="login">
+
+<p style="text-align:justify">
+برای مشاهده‌ی سایت نیاز به ورود دارید.<br/> اگر قبلا ایمیل خود را در سایت وارد کرده‌اید، می‌توانید به وسیله‌ی لینک پایین صفحه، یک پسورد برای مشاهده سایت دریافت کنید.
+<br/>
+</p>
+
+	
+		
+<form name="loginform" id="loginform" action="https://yourdigital.li/login/index.php" method="post">
+	<p>
+		<label for="user_login">ایمیل<br>
+		<input style="direction:ltr;font-size:16px;" type="text" name="email" id="user_login" class="input" size="20" ></label>
+	</p>
+	<p>
+		<label for="user_pass">رمز<br>
+		<input style="direction:ltr;font-size:16px;" type="password" name="pwd" id="user_pass" class="input" value="" size="20"></label>
+	</p>
+		
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="ورود">
+		
+		
+	</p>
+</form>
+
+<p id="nav">
+<strong>
+	<a href="https://yourdigital.li/login/forgot.php" title="گم شدن و پیدا کردن رمز">رمز خود را دریافت نکرده‌اید؟ اینجا کلیک کنید</a>
+</strong>
+</p>
+
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+
+	
+	</div>
+
+	
+		<div class="clear"></div>
+	
+
+     
+
+
+</body></html>
